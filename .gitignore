@@ -1,0 +1,8 @@
+﻿train_rich.csv
+test_rich.csv
+val_rich.csv
+reg_temp_scaler.pt
+test_predictions.csv
+ BLOCK 7 RESULTS.txt
+Bank Shield Project Description.txt
+.ipynb_checkpoints/

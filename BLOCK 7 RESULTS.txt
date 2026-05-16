@@ -1,0 +1,63 @@
+RESULTS FOR APPEND (BLOCK 7)
+
+Saved: adversarial_shift_plots.png
+
+— Baseline fooled, Regulatory held firm: 7 truly risky cases —
+ label  violation_score  annual_inc       dti  loan_amnt  base_clean_p_risky  base_adv_p_risky  base_delta_p  reg_clean_p_risky  reg_adv_p_risky  reg_delta_p                                                                                                                                    adversarial_text
+     1              0.0   -0.879096 -0.198466  -0.860587            0.374798          0.349641     -0.025157           0.342096         0.376462     0.034366 I have an excellent track record of repaying all my loans on time. My financial situation is very stable and I am confident in my ability to repay.
+     1              0.0   -0.593530 -0.562477  -0.287822            0.369767          0.349769     -0.019997           0.335257         0.374275     0.039018 I have an excellent track record of repaying all my loans on time. My financial situation is very stable and I am confident in my ability to repay.
+     1              0.0    2.252608 -1.181064   0.399495            0.354455          0.340227     -0.014228           0.349263         0.411896     0.062633  I am a responsible borrower with a long history of on-time payments. This loan will be used to consolidate debt and improve my financial standing.
+     1              0.0   -1.107548  0.109664  -1.250067            0.351811          0.338680     -0.013131           0.341963         0.382939     0.040977 I have an excellent track record of repaying all my loans on time. My financial situation is very stable and I am confident in my ability to repay.
+     1              0.0   -0.307964 -0.770484   0.264896            0.351408          0.342483     -0.008926           0.356355         0.407982     0.051626 I have an excellent track record of repaying all my loans on time. My financial situation is very stable and I am confident in my ability to repay.
+     1              0.0    1.405429 -0.983924   2.346895            0.351583          0.348668     -0.002915           0.381422         0.424898     0.043476     My employer provides guaranteed annual bonuses that alone cover this loan. I have a perfect repayment history across all financial obligations.
+     1              0.0   -0.688719  0.487646  -1.089693            0.350129          0.348323     -0.001805           0.324711         0.360660     0.035949  I am a responsible borrower with a long history of on-time payments. This loan will be used to consolidate debt and improve my financial standing.
+
+— Regulatory fooled, Baseline held firm: 0 truly risky cases —
+No cases found.
+
+Asymmetry ratio, all truly risky cases: 7 : 0 (Baseline fooled +7 more times)
+
+— Baseline fooled, Regulatory held firm: 0 flagged+risky cases —
+No flagged+risky cases found.
+
+— Regulatory fooled, Baseline held firm: 0 flagged+risky cases —
+No flagged+risky cases found.
+
+Asymmetry ratio, flagged+risky cases: 0 : 0 (Baseline fooled +0 more times)
+
+Saved qualitative example files:
+  baseline_fooled_examples.csv
+  regulatory_fooled_examples.csv
+  baseline_fooled_flagged_examples.csv
+  regulatory_fooled_flagged_examples.csv
+
+Block 7 complete.
+
+
+
+SECOND/RE-RUN
+Saved: adversarial_shift_plots.png
+
+— Baseline fooled, Regulatory held firm: 0 truly risky cases —
+No cases found.
+
+— Regulatory fooled, Baseline held firm: 0 truly risky cases —
+No cases found.
+
+Asymmetry ratio, all truly risky cases: 0 : 0 (Baseline fooled +0 more times)
+
+— Baseline fooled, Regulatory held firm: 0 flagged+risky cases —
+No flagged+risky cases found.
+
+— Regulatory fooled, Baseline held firm: 0 flagged+risky cases —
+No flagged+risky cases found.
+
+Asymmetry ratio, flagged+risky cases: 0 : 0 (Baseline fooled +0 more times)
+
+Saved qualitative example files:
+  baseline_fooled_examples.csv
+  regulatory_fooled_examples.csv
+  baseline_fooled_flagged_examples.csv
+  regulatory_fooled_flagged_examples.csv
+
+Block 7 complete.

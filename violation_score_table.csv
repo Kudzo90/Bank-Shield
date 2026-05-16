@@ -1,0 +1,11 @@
+Model,Violation Bucket,N,Mean P(Risky),Actual Risky (%)
+Baseline,None (0),7269,0.42261297,19.645067
+Baseline,Low (0-0.25),144,0.55427426,25.0
+Baseline,Medium (0.25-0.5),71,0.64253765,40.84507
+Baseline,High (0.5-0.75),9,0.5847531,11.111112
+Baseline,Critical (0.75-1.0),7,0.48034462,42.857143
+Regulatory,None (0),7269,0.4230235,19.645067
+Regulatory,Low (0-0.25),144,0.54039496,25.0
+Regulatory,Medium (0.25-0.5),71,0.6246013,40.84507
+Regulatory,High (0.5-0.75),9,0.5658488,11.111112
+Regulatory,Critical (0.75-1.0),7,0.5738302,42.857143
