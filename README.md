@@ -328,7 +328,7 @@ If you use Bank Shield in research or publications, please cite:
 ```bibtex
 @software{bankshield2026,
   title = {Bank Shield: Auditable AI for Regulatory-Compliant Credit Scoring},
-  author = {Your Name},
+  author = {Wonder K. Ekpe},
   year = {2026},
   url = {https://github.com/yourusername/bank-shield},
   note = {Open-source hybrid ML framework for compliant credit risk modeling}
